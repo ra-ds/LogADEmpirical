@@ -1,5 +1,7 @@
 import os
 import pickle
+import sys
+sys.path.append('../..')
 from copy import copy, deepcopy
 
 import pandas as pd

@@ -5,6 +5,8 @@ import numpy as np
 import pandas as pd
 from tqdm import tqdm
 import os
+import sys
+sys.path.append('../..')
 from sklearn.model_selection import train_test_split
 from sklearn.utils import shuffle
 from logadempirical.logdeep.dataset import bert_encoder

@@ -3,6 +3,9 @@ import torch.nn.functional as F
 import torch
 from torch import nn
 import torch.onnx.operators
+import sys
+sys.path.append('../..')
+sys.path.append('../')
 
 import math
 

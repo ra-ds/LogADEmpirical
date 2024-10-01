@@ -1,4 +1,6 @@
 import os
+import sys
+sys.path.extend(["../../", "../", "./"])
 from logadempirical.bert_pytorch.dataset import WordVocab
 from logadempirical.bert_pytorch import Predictor, Trainer
 

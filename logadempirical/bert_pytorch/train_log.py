@@ -1,3 +1,5 @@
+import sys
+sys.path.append('../..')
 from torch.utils.data import DataLoader
 from logadempirical.bert_pytorch.model import BERT
 from logadempirical.bert_pytorch.trainer import BERTTrainer

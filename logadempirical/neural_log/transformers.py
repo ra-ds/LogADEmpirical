@@ -2,6 +2,9 @@ from torch import Tensor
 import torch.nn.functional as F
 import torch
 from torch import nn
+import sys
+sys.path.append('../..')
+sys.path.append('../')
 
 from logadempirical.neural_log.encoding import position_encoding, PositionalEmbedding, PositionalEncoding
 from logadempirical.neural_log.attention import MultiHeadAttention

@@ -14,6 +14,9 @@ import torch.nn.functional as F
 from torch.utils.data import DataLoader
 from tqdm import tqdm
 from sklearn.metrics import auc
+import sys
+sys.path.append('../..')
+sys.path.append('../')
 
 from logadempirical.logdeep.dataset.log import log_dataset
 from logadempirical.logdeep.dataset.sample import sliding_window

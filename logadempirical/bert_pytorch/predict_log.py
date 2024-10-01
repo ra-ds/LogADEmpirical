@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 import pickle
 import time
 import torch
+import sys
+sys.path.append('../..')
 from tqdm import tqdm
 from torch.utils.data import DataLoader
 

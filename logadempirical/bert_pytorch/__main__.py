@@ -1,5 +1,6 @@
 import argparse
-
+import sys
+sys.path.append('../..')
 from torch.utils.data import DataLoader
 
 from bert_pytorch.model import BERT

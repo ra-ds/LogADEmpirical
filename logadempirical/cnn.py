@@ -1,5 +1,6 @@
 import os
-
+import sys
+sys.path.extend(["../../", "../", "./"])
 from logadempirical.logdeep.models.lstm import  deeplog
 from logadempirical.logdeep.tools.predict import Predicter
 from logadempirical.logdeep.tools.train import Trainer

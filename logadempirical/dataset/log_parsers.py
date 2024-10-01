@@ -1,3 +1,5 @@
+import sys
+sys.path.extend(["../../", "../", "./"])
 from logadempirical.logparser import Spell, Drain
 
 

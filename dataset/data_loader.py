@@ -6,6 +6,8 @@ import re
 from sklearn.utils import shuffle
 import pickle
 import os
+import sys
+sys.path.append('../..')
 
 from modules.data.Instance import parse_instance
 
@@ -233,7 +235,7 @@ if __name__ == '__main__':
     # x_tr, x_te = load_Hadoop("spirit/Hadoop.log_structured.csv", "hadoop/label.json", train_ratio=0.8)
 
     x_tr, x_te = load_fixed_windows_instances(
-        "../../LogVectorization/logparser/benchmark/Drain_result/Spirit5M.log_structured.csv",
+        "/snap-l40s-x1/root/raphael/logadempirical/dataset/BGL.log_structured.csv",  # "../../LogVectorization/logparser/benchmark/Drain_result/Spirit5M.log_structured.csv",
         train_ratio=0.8,
         window_size=20)
 

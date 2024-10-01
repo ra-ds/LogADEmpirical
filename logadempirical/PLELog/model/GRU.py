@@ -1,3 +1,5 @@
+import sys
+sys.path.extend(["../../", "../", "./"])
 from logadempirical.PLELog.module.Attention import *
 from logadempirical.PLELog.module.CPUEmbedding import *
 from logadempirical.PLELog.module.Common import *

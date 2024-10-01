@@ -1,5 +1,7 @@
 import math
-
+import sys
+sys.path.append('../..')
+sys.path.append('../')
 from scipy.spatial.distance import cdist
 
 from logadempirical.PLELog.data.DataLoader import *

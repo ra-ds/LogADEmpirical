@@ -1,4 +1,6 @@
 import os
+import sys
+sys.path.extend(["../../", "../", "./", "../.."])
 import gc
 import pandas as pd
 import numpy as np
